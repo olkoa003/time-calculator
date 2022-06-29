@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/main.css">
+  <script type="module" src="./js/main.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="switch-button">
+    <button class="calc--btn">Days Calculator</button>
+    <button class="timer--btn">Timer</button>
+  </div>
+  <form id="datecalc" class="active">
+    <h3>Days Calculator</h3>
+    <label>
+      <strong>First Date:</strong>
+      <input type="date" name="firstDate" />
+    </label>
+    <label>
+      <strong>Second Date:</strong>
+      <input type="date" name="secondDate" />
+    </label>
+    <button type="submit">Calculate</button>
+    <p id="datecalc__result"></p>
+  </form>
+  <form id="timer" action="#">
+    <h3>Timer</h3>
+    <input type="number" name="time" id="time" placeholder="Please enter time">
+    <div class="timer__display">0</div>
+    <div class="">
+      <button id = "start">Start</button>
+      <button id = "stop">Stop</button>
+    </div>
+  </form>
+</body>
+
+</html>
