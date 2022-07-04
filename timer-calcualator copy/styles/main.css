@@ -1,0 +1,17 @@
+body {
+  position: relative;
+}
+
+#datecalc, #timer {
+  position: absolute;
+}
+
+.active {
+  color: red;
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+/*# sourceMappingURL=main.css.map */
