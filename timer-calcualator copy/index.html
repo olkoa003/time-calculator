@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="text/css" rel="stylesheet" href="../css/main.css">
+  <script type="module" src="./index.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="switch-button">
+    <button class="calc--btn">Days Calculator</button>
+    <button class="timer--btn">Timer</button>
+  </div>
+  <form id="datecalc" class="active">
+    <h3>Days Calculator</h3>
+    <label>
+      <strong>First Date:</strong>
+      <input type="date" name="firstDate" />
+    </label>
+    <label>
+      <strong>Second Date:</strong>
+      <input type="date" name="secondDate" />
+    </label>
+    <button type="submit">Calculate</button>
+    <p id="datecalc__result"></p>
+  </form>
+  <form id="timer" action="#">
+    <h3>Timer</h3>
+    <input type="number" name="time" id="time" placeholder="Please enter time">
+    <div class="timer__display">0</div>
+    <div class="">
+      <button id="start">Start</button>
+      <button id="stop">Stop</button>
+    </div>
+  </form>
+  <div>
+    <audio controls>
+      <source src="./mp3/birds.mp3" type="audio/mpeg">
+    </audio>
+    <audio controls>
+      <source src="./mp3/wind-in-trees.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+</body>
+</html>
